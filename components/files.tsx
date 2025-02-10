@@ -87,7 +87,7 @@ export const Files = ({
             type="file"
             required
             className="opacity-0 pointer-events-none w-1"
-            accept="application/pdf"
+            accept=".pdf,.txt,.html"
             multiple={false}
             onChange={async (event) => {
               const file = event.target.files![0];
